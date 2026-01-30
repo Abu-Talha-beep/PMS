@@ -1,6 +1,6 @@
 import dotenv from 'dotenv';
 import express from 'express';
-import {connectDB} from './src/config/database.js';
+import connectDB from './src/config/database.js';
 import { corsMiddleware } from './src/middlewares/cors.js';
 import { errorHandler } from './src/middlewares/auth.js';
 import authRoutes from './src/routes/authRoutes.js';
